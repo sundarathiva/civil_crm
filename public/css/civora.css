@@ -13,7 +13,6 @@
     --muted: #6f675c;
     --shadow: 0 18px 40px rgba(40, 32, 18, 0.06);
     --radius: 18px;
-    font-family: "Outfit", "Segoe UI", sans-serif;
     color: var(--ink);
     background: var(--paper);
 }
@@ -42,7 +41,7 @@ h1, h2, h3, p { margin: 0; }
     width: 42px; height: 42px; border-radius: 14px;
     display: grid; place-items: center;
     background: linear-gradient(160deg, #f0c36a, #c47b2b);
-    color: #1b1408; font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 22px;
+    color: #1b1408; font-weight: 600; font-size: 22px;
 }
 .brand strong { display: block; font-size: 18px; letter-spacing: 0.01em; }
 .brand small { color: #b7c6bc; letter-spacing: 0.08em; text-transform: uppercase; font-size: 10px; }
@@ -61,7 +60,7 @@ h1, h2, h3, p { margin: 0; }
 .main { padding: 28px 32px 48px; }
 .top { display: flex; justify-content: space-between; gap: 16px; align-items: flex-end; margin-bottom: 22px; }
 .eyebrow { color: var(--gold-deep); letter-spacing: 0.16em; text-transform: uppercase; font-size: 12px; font-weight: 600; }
-h1 { font-family: "Fraunces", Georgia, serif; font-weight: 560; font-size: 40px; letter-spacing: -0.03em; line-height: 1.05; }
+h1 { font-weight: 560; font-size: 28px; letter-spacing: -0.02em; line-height: 1.15; }
 .sub { color: var(--muted); margin-top: 6px; }
 
 .btn, button.btn {
@@ -83,12 +82,12 @@ h1 { font-family: "Fraunces", Georgia, serif; font-weight: 560; font-size: 40px;
 }
 .stat { padding: 16px 18px; }
 .stat span { color: var(--muted); font-size: 13px; }
-.stat strong { display: block; margin-top: 8px; font-family: "Fraunces", Georgia, serif; font-size: 34px; font-weight: 560; }
+.stat strong { display: block; margin-top: 8px; font-size: 34px; font-weight: 560; }
 .stat em { font-style: normal; color: var(--gold-deep); font-size: 13px; }
 
 .layout-split { display: grid; grid-template-columns: 1.5fr 0.8fr; gap: 14px; }
 .panel { padding: 18px; }
-.panel h2 { font-family: "Fraunces", Georgia, serif; font-size: 26px; margin-bottom: 14px; }
+.panel h2 { font-size: 26px; margin-bottom: 14px; }
 .panel-head { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-bottom: 12px; }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; }
 .filters input, .filters select, .field input, .field select, .field textarea {
@@ -125,7 +124,7 @@ table.grid tr:hover td { background: #fbf7f0; }
 
 .alert-list { display: flex; flex-direction: column; gap: 10px; }
 .alert-item { display: flex; justify-content: space-between; gap: 12px; padding: 12px; border-radius: 14px; background: #faf6ef; }
-.alert-item strong { font-family: "Fraunces", Georgia, serif; font-size: 28px; }
+.alert-item strong { font-size: 28px; }
 
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .report-card, .work-card { display: block; padding: 16px; border-radius: 16px; background: #faf6ef; border: 1px solid transparent; }
@@ -151,7 +150,7 @@ table.grid tr:hover td { background: #fbf7f0; }
         linear-gradient(165deg, #1a2b24, #0e1814);
     display: flex; flex-direction: column; justify-content: space-between;
 }
-.guest-hero h1 { font-size: 64px; max-width: 640px; }
+.guest-hero h1 { font-size: 42px; max-width: 520px; }
 .guest-form { display: grid; place-items: center; padding: 32px; }
 .login-card { width: min(440px, 100%); }
 .demo { margin-top: 18px; font-size: 13px; color: var(--muted); }
@@ -167,7 +166,7 @@ table.grid tr:hover td { background: #fbf7f0; }
     .burger { display: inline-flex; margin-bottom: 12px; }
     .stats, .layout-split, .form-grid, .cards, .guest { grid-template-columns: 1fr; }
     .photos { grid-template-columns: 1fr 1fr; }
-    h1 { font-size: 32px; }
+    h1 { font-size: 24px; }
     .main { padding: 18px; }
     .guest-hero { display: none; }
 }
