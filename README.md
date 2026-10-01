@@ -16,7 +16,7 @@ Open http://127.0.0.1:8000
 
 Demo password for every account: `password`
 
-| Role | Email |
+| Role | Email ||
 | --- | --- |
 | Super Admin | admin@civora.test |
 | Engineer | engineer@civora.test |
