@@ -18,6 +18,7 @@ class WorkerController extends Controller
 {
     public function index(Request $request)
     {
+        
         $projects = Project::query()->visibleTo(auth()->user())->orderBy('name')->get();
         $workers = Worker::with(['project', 'location', 'user'])
             ->when(! auth()->user()->hasRole('super_admin'), fn ($query) => $query->whereIn('project_id', $projects->pluck('id')))
